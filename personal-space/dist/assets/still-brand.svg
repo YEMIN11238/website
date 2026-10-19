@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#EAE7DF"/><stop offset="1" stop-color="#D6D3C9"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="450" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#E4E1D7"/><stop offset=".09" stop-color="#FBF9F1"/><stop offset=".8" stop-color="#F2EFE7"/><stop offset="1" stop-color="#DDD9CE"/></linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="240" y2="240" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFEF9"/><stop offset="1" stop-color="#C5C0B3"/></linearGradient>
+    <radialGradient id="coffee"><stop stop-color="#6E3D24"/><stop offset=".78" stop-color="#4F2D1E"/><stop offset="1" stop-color="#2D1C15"/></radialGradient>
+    <filter id="shadow" x="-40%" y="-30%" width="180%" height="190%"><feDropShadow dx="9" dy="25" stdDeviation="20" flood-color="#292C21" flood-opacity=".17"/></filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+    <pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".55" fill="#716E62" fill-opacity=".08"/><circle cx="5" cy="4" r=".5" fill="#FFF" fill-opacity=".25"/></pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <path d="M0 120L1200 5V230L0 345Z" fill="#FFF" opacity=".15"/>
+  <path d="M0 635L1200 515V550L0 670Z" fill="#FFF" opacity=".12"/>
+  <ellipse cx="603" cy="733" rx="465" ry="72" fill="#5D594B" opacity=".08" filter="url(#soft)"/>
+  <!-- A folded card, tucked underneath the coffee pouch. -->
+  <g transform="translate(702 154) rotate(12 146 186)" filter="url(#shadow)">
+    <rect width="302" height="391" rx="2" fill="#C65B35"/>
+    <rect x="17" y="18" width="268" height="355" rx="1" stroke="#F5D4BD" stroke-opacity=".45"/>
+    <text x="40" y="65" fill="#FAF2DC" font-family="Georgia,serif" font-size="38" letter-spacing="-2">still.</text>
+    <path d="M41 88H260" stroke="#F8D3B8" stroke-opacity=".55"/>
+    <text x="40" y="154" fill="#F8EDD6" font-family="Georgia,serif" font-size="42">Good things</text>
+    <text x="40" y="200" fill="#F8EDD6" font-family="Georgia,serif" font-size="42">take a</text>
+    <text x="40" y="246" fill="#F8EDD6" font-family="Georgia,serif" font-size="42" font-style="italic">little time.</text>
+    <text x="40" y="329" fill="#F5D9C5" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.2">A SLOWER KIND OF EVERYDAY.</text>
+    <circle cx="250" cy="53" r="10" stroke="#F5D9C5"/>
+    <path d="M246 54L250 49L254 54M250 49V59" stroke="#F5D9C5"/>
+  </g>
+  <!-- Paper coffee pouch with a quiet editorial label. -->
+  <g transform="translate(226 114) rotate(-8 230 336)" filter="url(#shadow)">
+    <path d="M31 12H420L446 76L431 631L404 664H39L14 632L6 75Z" fill="url(#paper)"/>
+    <path d="M31 12H420L431 44H20Z" fill="#EAE6DC"/>
+    <path d="M20 44H431M17 51H434M16 57H436" stroke="#D6D2C7" stroke-width="2"/>
+    <path d="M6 75L35 109L39 615L14 632M446 76L415 109L404 618L431 631" stroke="#BDB8AB" stroke-opacity=".5"/>
+    <path d="M39 615L404 618L431 631L404 664H39L14 632Z" fill="#DAD6C9" opacity=".65"/>
+    <path d="M38 614L49 638H394L404 618" stroke="#C4BFB1" stroke-opacity=".65"/>
+    <circle cx="227" cy="105" r="6" fill="#C3BFB3"/>
+    <circle cx="227" cy="105" r="2" fill="#928C7F"/>
+    <text x="65" y="179" fill="#314336" font-family="Arial,sans-serif" font-size="10" letter-spacing="3.4">SLOW COFFEE. FULL DAYS.</text>
+    <text x="57" y="314" fill="#2D4033" font-family="Georgia,serif" font-size="153" letter-spacing="-11">still.</text>
+    <circle cx="338" cy="298" r="43" fill="#CB6138"/>
+    <path d="M307 301C322 282 351 280 369 294M307 312C323 297 351 295 370 306M311 323C327 313 347 309 365 318" stroke="#F4DDC5" stroke-width="1.8"/>
+    <path d="M65 359H385" stroke="#A5AA9C"/>
+    <text x="65" y="396" fill="#354537" font-family="Georgia,serif" font-size="29">The everyday blend</text>
+    <text x="65" y="427" fill="#7E8274" font-family="Arial,sans-serif" font-size="12" letter-spacing="1.5">CHOCOLATE · HAZELNUT · A LITTLE SUNSHINE</text>
+    <text x="65" y="491" fill="#445343" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.6">ROASTED WITH PATIENCE</text>
+    <text x="65" y="514" fill="#808375" font-family="Arial,sans-serif" font-size="11">For mornings that belong to you.</text>
+    <path d="M65 551H385" stroke="#B9BBAF"/>
+    <text x="65" y="578" fill="#58614F" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5">WHOLE BEAN COFFEE</text>
+    <text x="385" y="578" fill="#58614F" font-family="Arial,sans-serif" font-size="11" text-anchor="end">250 g</text>
+    <rect x="28" y="14" width="400" height="636" fill="url(#grain)" opacity=".5"/>
+  </g>
+  <!-- Ceramic espresso cup, viewed from above. -->
+  <g transform="translate(782 592) rotate(21)" filter="url(#shadow)">
+    <ellipse cx="26" cy="29" rx="153" ry="140" fill="#D8D3C8"/>
+    <ellipse cx="25" cy="23" rx="148" ry="136" fill="#EAE7DD"/>
+    <ellipse cx="25" cy="23" rx="114" ry="105" stroke="#C7C2B6" stroke-width="2"/>
+    <path d="M117 -27C199 -43 209 57 135 68L120 40C165 40 166 -5 125 1Z" fill="url(#cup)" stroke="#D4D0C5" stroke-width="2"/>
+    <circle r="109" fill="url(#cup)"/>
+    <circle r="91" fill="#F7F3E9"/>
+    <circle r="83" fill="url(#coffee)"/>
+    <circle r="79" stroke="#AD7342" stroke-opacity=".55" stroke-width="4"/>
+    <path d="M-35 23C-70-8-24-50-4-10C12-48 59-23 35 9C23 25 4 38-1 48C-6 38-24 33-35 23Z" fill="#DDB888"/>
+    <path d="M-2 44C9 13 4-6-7-22" stroke="#F0D4AF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-3 19C-23 20-31 10-37-1M1 7C21 11 30 2 32-7M-4-6C-22-8-23-16-23-23" stroke="#F0D4AF" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="-39" cy="-52" rx="15" ry="7" transform="rotate(-35 -39 -52)" fill="#CB965F" opacity=".35"/>
+  </g>
+  <g transform="translate(1012 627) rotate(29)"><ellipse cx="0" cy="72" rx="13" ry="90" fill="#716E60" opacity=".12"/><path d="M0 42V196" stroke="#B8B5AA" stroke-width="10" stroke-linecap="round"/><path d="M-3 42V196" stroke="#F3F1E9" stroke-width="3" stroke-linecap="round"/><ellipse rx="22" ry="38" fill="#C5C2B7"/><ellipse cx="-2" cy="-3" rx="16" ry="29" fill="#DCD9CE"/><path d="M-14-20C-6-34 10-25 13-13" stroke="#F6F3E9" stroke-width="3" stroke-linecap="round"/></g>
+  <text x="60" y="839" fill="#7D8173" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">STILL. — BRAND EXPLORATION</text>
+  <text x="1140" y="839" fill="#7D8173" font-family="Arial,sans-serif" font-size="11" letter-spacing="2" text-anchor="end">SLOW IS A BEAUTIFUL PACE.</text>
+</svg>

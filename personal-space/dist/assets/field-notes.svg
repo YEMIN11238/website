@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#D5D5D0"/><stop offset="1" stop-color="#BEBEB7"/></linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#E1E1D8"/><stop offset=".035" stop-color="#F6F6EE"/><stop offset=".09" stop-color="#ECECE3"/><stop offset="1" stop-color="#F4F4EC"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-30%" width="180%" height="190%"><feDropShadow dx="12" dy="25" stdDeviation="20" flood-color="#252822" flood-opacity=".22"/></filter>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(24)"><path d="M0 0V8" stroke="#D4D5CB" stroke-width="1" opacity=".3"/></pattern>
+    <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".5" fill="#34372F" fill-opacity=".07"/><circle cx="4" cy="4" r=".5" fill="#FFF" fill-opacity=".22"/></pattern>
+    <clipPath id="art"><rect x="31" y="248" width="425" height="287"/></clipPath>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <path d="M0 187L1200 44V159L0 308Z" fill="#F2F3EA" opacity=".15"/>
+  <!-- An unfolded monochrome editorial spread. -->
+  <g transform="translate(567 144) rotate(13 230 300)" filter="url(#shadow)">
+    <path d="M0 0H466V628H0Z" fill="#E7E7DD"/>
+    <path d="M9 0H466V628H9Z" fill="#F4F4EB"/>
+    <path d="M230 0V628" stroke="#C4C6BB"/>
+    <path d="M230 0H237V628H230Z" fill="#C2C5B8" opacity=".2"/>
+    <text x="28" y="33" fill="#5E6257" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.3">FIELD NOTES</text><text x="441" y="33" fill="#5E6257" font-family="Arial,sans-serif" font-size="8" text-anchor="end">VOL. 001</text>
+    <path d="M26 46H438" stroke="#9BA08F" stroke-width=".7"/>
+    <text x="252" y="88" fill="#31372D" font-family="Georgia,serif" font-size="29" letter-spacing="-.8">The art of</text><text x="252" y="120" fill="#31372D" font-family="Georgia,serif" font-size="29" font-style="italic">paying attention.</text>
+    <path d="M254 151H438M254 158H438M254 165H438M254 172H416M254 188H438M254 195H438M254 202H432M254 209H438M254 216H387" stroke="#A3A89A" stroke-width="1.6"/>
+    <rect x="253" y="243" width="185" height="225" fill="#333B30"/>
+    <path d="M253 405L295 343L320 365L357 293L394 337L438 299V468H253Z" fill="#798371"/>
+    <path d="M253 432L300 394L340 418L382 359L438 385V468H253Z" fill="#AFB5A5"/>
+    <path d="M253 455L308 434L350 451L400 419L438 435V468H253Z" fill="#D4D7C9"/>
+    <circle cx="287" cy="280" r="13" fill="#D4D7C9"/>
+    <path d="M254 495H438M254 502H438M254 509H438M254 516H408M254 532H438M254 539H438M254 546H438M254 553H403" stroke="#A3A89A" stroke-width="1.6"/>
+    <text x="438" y="601" fill="#7B8271" font-family="Arial,sans-serif" font-size="8" text-anchor="end">015</text>
+  </g>
+  <!-- Oversized typography and a graphic landscape on the issue cover. -->
+  <g transform="translate(186 100) rotate(-10 244 334)" filter="url(#shadow)">
+    <path d="M6 7H488V670H6Z" fill="#898D80"/>
+    <path d="M3 3H485V666H3Z" fill="#C8CBC0"/>
+    <path d="M0 0H482V662H0Z" fill="url(#cover)"/>
+    <path d="M10 0V662" stroke="#B9BDB1" stroke-opacity=".5"/>
+    <text x="31" y="35" fill="#555E4E" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.5">AN INDEPENDENT JOURNAL OF EVERYDAY OBSERVATIONS</text>
+    <path d="M31 49H454" stroke="#6D7565" stroke-width=".8"/>
+    <text x="27" y="137" fill="#283125" font-family="Arial,sans-serif" font-size="106" font-weight="900" letter-spacing="-7">FIELD</text>
+    <text x="25" y="224" fill="#283125" font-family="Arial,sans-serif" font-size="105" font-weight="900" letter-spacing="-8">NOTES</text>
+    <g clip-path="url(#art)">
+      <rect x="31" y="248" width="425" height="287" fill="#D7DACB"/>
+      <circle cx="347" cy="303" r="32" fill="#F4F3E7"/>
+      <path d="M31 390L93 372L136 346L178 361L235 315L283 348L342 334L389 370L456 349V535H31Z" fill="#8F9985"/>
+      <path d="M31 428L103 392L155 408L206 371L243 393L279 366L336 395L381 374L456 400V535H31Z" fill="#697661"/>
+      <path d="M31 464L91 432L152 444L200 415L254 435L327 412L380 431L456 420V535H31Z" fill="#414F3C"/>
+      <path d="M31 483C103 478 167 462 228 483C286 504 335 456 456 473V535H31Z" fill="#273724"/>
+      <path d="M266 535C273 508 304 502 290 487C278 474 253 476 258 463C264 448 298 444 294 430C293 423 283 418 279 414" stroke="#D2D7C5" stroke-width="9"/>
+      <path d="M275 535C281 508 312 504 297 486C286 472 264 476 266 463C268 452 302 444 299 431" stroke="#A8B39B" stroke-width="2"/>
+      <path d="M31 386L93 367L137 343L176 357M58 388L108 372L134 356M167 358L199 347L235 315L259 333M196 353L234 323L250 335M317 349L343 334L372 358M345 345L361 357" stroke="#D6DACB" stroke-width="1.7" opacity=".35"/>
+      <rect x="31" y="248" width="425" height="287" fill="url(#hatch)"/>
+      <g fill="#202F20"><path d="M63 461L71 419L79 461ZM84 467L94 410L104 467ZM112 471L123 432L134 471ZM374 474L384 426L394 474ZM397 475L407 416L417 475ZM424 481L437 430L450 481Z"/><path d="M47 503L59 446L71 503ZM74 517L86 465L98 517ZM110 516L125 456L140 516ZM394 527L411 463L428 527Z"/></g>
+      <text x="49" y="516" fill="#D8DECC" font-family="Arial,sans-serif" font-size="7" letter-spacing="1.3">35° 41' 22" N — A PLACE TO BEGIN</text>
+    </g>
+    <text x="31" y="568" fill="#68715F" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.9">ISSUE 001</text><text x="456" y="568" fill="#68715F" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.9" text-anchor="end">THE ORDINARY ISSUE</text>
+    <text x="31" y="614" fill="#37422F" font-family="Georgia,serif" font-size="30" font-style="italic" letter-spacing="-.7">There is more, if you look.</text>
+    <text x="31" y="640" fill="#7E8774" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.3">WANDERING / NOTICING / COLLECTING / BEGINNING AGAIN</text>
+    <rect width="482" height="662" fill="url(#grain)"/>
+  </g>
+  <!-- A typographic bookmark. -->
+  <g transform="translate(881 627) rotate(16)"><rect width="76" height="214" fill="#293326"/><text x="18" y="24" fill="#DDE1D3" font-family="Arial,sans-serif" font-size="7" letter-spacing="1">FIELD NOTES</text><path d="M18 40H59" stroke="#808C75"/><text x="22" y="82" fill="#E4E7DC" font-family="Georgia,serif" font-size="31">f.</text><text transform="translate(45 194) rotate(-90)" fill="#A6B19A" font-family="Arial,sans-serif" font-size="8" letter-spacing="2.6">STAY CURIOUS.</text></g>
+  <text x="60" y="843" fill="#626B58" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">FIELD NOTES — EDITORIAL EXPLORATION</text>
+</svg>

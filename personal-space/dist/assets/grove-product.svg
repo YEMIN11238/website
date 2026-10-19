@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#E0E8D9"/><stop offset="1" stop-color="#BACCB0"/></linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="190" y2="150" gradientUnits="userSpaceOnUse"><stop stop-color="#89A87C"/><stop offset="1" stop-color="#496742"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="190%"><feDropShadow dx="0" dy="30" stdDeviation="29" flood-color="#365438" flood-opacity=".2"/></filter>
+    <filter id="smallshadow" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="0" dy="13" stdDeviation="13" flood-color="#3D543C" flood-opacity=".16"/></filter>
+    <pattern id="dot" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#556A4A" opacity=".1"/></pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#dot)"/>
+  <circle cx="1192" cy="-70" r="389" stroke="#F0F3E9" stroke-width="1" opacity=".7"/>
+  <circle cx="1192" cy="-70" r="438" stroke="#F0F3E9" stroke-width="1" opacity=".5"/>
+  <circle cx="62" cy="900" r="245" stroke="#EEF2E7" stroke-width="1" opacity=".6"/>
+  <g filter="url(#shadow)">
+    <rect x="96" y="146" width="1008" height="617" rx="21" fill="#F8F9F3"/>
+    <path d="M117 146H307V763H117C105 763 96 754 96 742V167C96 155 105 146 117 146Z" fill="#254738"/>
+    <!-- Sidebar -->
+    <g transform="translate(128 186)"><path d="M0 17C0 1 16 0 16 0C17 14 10 20 0 17Z" fill="#C3D7A8"/><path d="M19 20C18 6 33 4 33 4C35 16 29 23 19 20Z" fill="#8FAA7A"/><path d="M15 17V31" stroke="#C3D7A8" stroke-width="2"/><text x="46" y="27" fill="#F4F6ED" font-family="Georgia,serif" font-size="34" letter-spacing="-1.3">grove</text></g>
+    <text x="131" y="270" fill="#8EAA97" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.6">YOUR SPACE</text>
+    <rect x="114" y="288" width="175" height="42" rx="8" fill="#3D5D49"/>
+    <g stroke="#DDE8CE" stroke-width="1.5"><rect x="132" y="301" width="6" height="6" rx="1"/><rect x="142" y="301" width="6" height="6" rx="1"/><rect x="132" y="311" width="6" height="6" rx="1"/><rect x="142" y="311" width="6" height="6" rx="1"/></g>
+    <text x="164" y="314" fill="#F0F4E9" font-family="Arial,sans-serif" font-size="12">Overview</text>
+    <g stroke="#9EB2A3" stroke-width="1.5"><rect x="133" y="352" width="15" height="17" rx="3"/><path d="M137 358H144M137 363H142"/><rect x="133" y="400" width="15" height="15" rx="3"/><path d="M133 405H148M137 397V402M144 397V402"/><path d="M134 458V446H138V458M142 458V439H146V458"/></g>
+    <text x="164" y="365" fill="#B2C2B4" font-family="Arial,sans-serif" font-size="12">My projects</text>
+    <text x="164" y="414" fill="#B2C2B4" font-family="Arial,sans-serif" font-size="12">Calendar</text>
+    <text x="164" y="458" fill="#B2C2B4" font-family="Arial,sans-serif" font-size="12">Insights</text>
+    <path d="M128 493H274" stroke="#4C6857"/>
+    <text x="131" y="526" fill="#8EAA97" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.6">MY GARDEN</text>
+    <circle cx="138" cy="555" r="4" fill="#C0CCA0"/><text x="154" y="559" fill="#C7D3C6" font-family="Arial,sans-serif" font-size="11">Personal growth</text>
+    <circle cx="138" cy="587" r="4" fill="#D7AF87"/><text x="154" y="591" fill="#C7D3C6" font-family="Arial,sans-serif" font-size="11">Creative practice</text>
+    <circle cx="139" cy="715" r="15" fill="#D5CFB2"/><text x="139" y="719" fill="#4C5B42" font-family="Arial,sans-serif" font-size="10" text-anchor="middle">JL</text><text x="164" y="713" fill="#E3EBDD" font-family="Arial,sans-serif" font-size="11">Jamie Lee</text><text x="164" y="729" fill="#8DA791" font-family="Arial,sans-serif" font-size="9">A space to grow</text>
+    <!-- Main workspace -->
+    <text x="345" y="187" fill="#8A9485" font-family="Arial,sans-serif" font-size="10">My workspace</text><text x="437" y="187" fill="#B3BCAC" font-family="Arial,sans-serif" font-size="12">/</text><text x="451" y="187" fill="#4C5D49" font-family="Arial,sans-serif" font-size="10">Overview</text>
+    <rect x="923" y="168" width="139" height="29" rx="14.5" stroke="#DFE5D8"/><circle cx="940" cy="182" r="4" stroke="#909B86"/><path d="M943 185L946 188" stroke="#909B86"/><text x="953" y="186" fill="#97A08E" font-family="Arial,sans-serif" font-size="9">Search anything</text>
+    <path d="M307 214H1104" stroke="#E4E9DD"/>
+    <text x="346" y="259" fill="#8B9681" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.5">MONDAY, OCTOBER 12</text>
+    <text x="345" y="304" fill="#304A36" font-family="Georgia,serif" font-size="35" letter-spacing="-.8">A little more focus.</text>
+    <text x="346" y="331" fill="#8B9482" font-family="Arial,sans-serif" font-size="11">Make room for the work that matters to you.</text>
+    <rect x="937" y="278" width="125" height="35" rx="7" fill="#365A3C"/><path d="M952 296H962M957 291V301" stroke="#EFF3E8" stroke-width="1.3"/><text x="973" y="300" fill="#F2F5EB" font-family="Arial,sans-serif" font-size="10">New project</text>
+    <rect x="346" y="364" width="447" height="167" rx="12" fill="#E6EDD9"/>
+    <text x="369" y="396" fill="#7A8A6C" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.2">YOUR WEEK, GROWING</text>
+    <text x="370" y="438" fill="#3B573C" font-family="Georgia,serif" font-size="34">Small steps.</text><text x="370" y="473" fill="#3B573C" font-family="Georgia,serif" font-size="34" font-style="italic">Good things.</text>
+    <text x="371" y="509" fill="#7E8F70" font-family="Arial,sans-serif" font-size="10">You’re making steady progress. Keep going.</text>
+    <g transform="translate(683 389)"><path d="M4 110C0 80 4 56 15 22" stroke="#587746" stroke-width="3"/><path d="M9 74C-34 77-44 45-38 31C-8 30 12 47 9 74Z" fill="url(#leaf)"/><path d="M11 55C8 18 34 3 53 7C57 38 37 60 11 55Z" fill="#8BA97D"/><path d="M4 95C-20 98-42 83-43 65C-18 60 2 71 4 95Z" fill="#A4BB8F"/><path d="M5 88C10 56 39 49 57 61C48 89 27 99 5 88Z" fill="#6F925F"/><path d="M3 109H-25L-19 135H24L30 109Z" fill="#D2C9AA"/><path d="M-26 109H31" stroke="#B9B498" stroke-width="3"/></g>
+    <rect x="811" y="364" width="251" height="167" rx="12" fill="#FCFCF7" stroke="#E3E8DB"/>
+    <text x="834" y="396" fill="#77836E" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.3">FOCUS TIME</text><text x="834" y="442" fill="#354F36" font-family="Georgia,serif" font-size="39">12.5</text><text x="914" y="440" fill="#8A9680" font-family="Arial,sans-serif" font-size="12">hrs</text><rect x="984" y="415" width="56" height="23" rx="11" fill="#EAF1E0"/><text x="1012" y="430" fill="#6C8A54" font-family="Arial,sans-serif" font-size="9" text-anchor="middle">↑ 18%</text>
+    <g fill="#DCE6D0"><rect x="834" y="478" width="17" height="30" rx="3"/><rect x="862" y="465" width="17" height="43" rx="3"/><rect x="890" y="474" width="17" height="34" rx="3"/><rect x="918" y="459" width="17" height="49" rx="3"/><rect x="946" y="471" width="17" height="37" rx="3"/><rect x="974" y="454" width="17" height="54" rx="3"/></g><rect x="1002" y="447" width="17" height="61" rx="3" fill="#789761"/>
+    <text x="346" y="570" fill="#3C523B" font-family="Arial,sans-serif" font-size="13">Your projects</text><text x="1061" y="570" fill="#9CA58F" font-family="Arial,sans-serif" font-size="10" text-anchor="end">View all →</text>
+    <rect x="346" y="588" width="227" height="137" rx="10" fill="#FCFCF8" stroke="#E2E7DA"/><rect x="364" y="604" width="28" height="28" rx="7" fill="#EEE4D6"/><path d="M372 624L375 613L381 610L384 615L376 624Z" stroke="#A9977A" stroke-width="1.2"/><text x="364" y="656" fill="#42563D" font-family="Arial,sans-serif" font-size="12">A daily writing habit</text><text x="364" y="675" fill="#929D87" font-family="Arial,sans-serif" font-size="9">A little thought, every day.</text><rect x="364" y="696" width="190" height="4" rx="2" fill="#E8ECDF"/><rect x="364" y="696" width="127" height="4" rx="2" fill="#A2B88A"/>
+    <rect x="591" y="588" width="227" height="137" rx="10" fill="#FCFCF8" stroke="#E2E7DA"/><rect x="609" y="604" width="28" height="28" rx="7" fill="#E3EBD6"/><path d="M616 624V614L623 611L630 614V624L623 621Z" stroke="#8BA16E" stroke-width="1.2"/><text x="609" y="656" fill="#42563D" font-family="Arial,sans-serif" font-size="12">Learn something new</text><text x="609" y="675" fill="#929D87" font-family="Arial,sans-serif" font-size="9">Follow your curiosity.</text><rect x="609" y="696" width="190" height="4" rx="2" fill="#E8ECDF"/><rect x="609" y="696" width="74" height="4" rx="2" fill="#A2B88A"/>
+    <rect x="836" y="588" width="226" height="137" rx="10" fill="#FCFCF8" stroke="#E2E7DA"/><rect x="854" y="604" width="28" height="28" rx="7" fill="#E6E5EF"/><path d="M861 624V616L868 611L875 616V624Z" stroke="#9A98B1" stroke-width="1.2"/><text x="854" y="656" fill="#42563D" font-family="Arial,sans-serif" font-size="12">Create a calmer home</text><text x="854" y="675" fill="#929D87" font-family="Arial,sans-serif" font-size="9">Space to breathe and be.</text><rect x="854" y="696" width="190" height="4" rx="2" fill="#E8ECDF"/><rect x="854" y="696" width="152" height="4" rx="2" fill="#A2B88A"/>
+  </g>
+  <g transform="translate(843 690) rotate(6)" filter="url(#smallshadow)"><rect width="267" height="104" rx="14" fill="#FFFFF8"/><circle cx="38" cy="41" r="18" fill="#E6EFD8"/><path d="M30 41L36 47L46 35" stroke="#6C8A52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="67" y="36" fill="#405538" font-family="Arial,sans-serif" font-size="12">Room to grow.</text><text x="67" y="55" fill="#8A967D" font-family="Arial,sans-serif" font-size="10">You completed your daily focus.</text><path d="M23 78H244" stroke="#ECF0E5"/><text x="24" y="94" fill="#98A18C" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.6">ONE SMALL STEP AT A TIME.</text></g>
+  <text x="96" y="830" fill="#637C58" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">GROVE — A QUIETER WAY TO WORK</text>
+</svg>
